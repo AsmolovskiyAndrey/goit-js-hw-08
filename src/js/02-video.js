@@ -1,6 +1,6 @@
 import Player from '@vimeo/player'; //! из документации
 // import throttle from 'lodash.throttle';
-var throttle = require('lodash.throttle');
+var throttle = require('lodash.throttle'); //! из документации
 
 const iframe = document.querySelector('iframe'); //! из документации
 const player = new Player(iframe); //! из документации
